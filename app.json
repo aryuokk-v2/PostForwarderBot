@@ -1,0 +1,32 @@
+{
+    "name": "PostForwarderBot",
+    "description": "Open-Source bot to forward post from one channel to another",
+    "repository": "https://github.com/stark-Prince/PostForwarderBot",
+    "keywords": [
+      "forward", 
+      "telethon",
+      "telegram"
+    ],
+    "env": {
+      "BOT_TOKEN": {
+        "description": "A bot token from @BotFather",
+        "required": true
+      },
+      "API_ID": {
+        "description": "App ID from my.telegram.org/apps",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "App HASH from my.telegram.org/apps",
+        "required": true
+      },
+      "FROM_CHANNEL": {
+        "description": "Your channel ID from where you want to forward post",
+        "required": true
+      },
+      "TO_CHANNEL": {
+        "description": "Your channel ID to where you want to forward post",
+        "required": true
+      }
+    }
+  }
